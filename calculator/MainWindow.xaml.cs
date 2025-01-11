@@ -18,6 +18,7 @@ namespace calculator
     {
         public MainWindow()
         {
+            Console.WriteLine('Hello Wolrd');
             InitializeComponent();
         }
     }
