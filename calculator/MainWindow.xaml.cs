@@ -16,25 +16,10 @@ namespace calculator
     /// </summary>
     public partial class MainWindow : Window
     {
-        private double firstnum, secondnum, resultnum;
         public MainWindow()
         {
+            Console.WriteLine('Hello Wolrd');
             InitializeComponent();
-        }
-
-        private bool InputValidation()
-        {
-            if (double.TryParse(FirstNum.Text, out firstnum) && double.TryParse(SecondNum.Text, out secondnum))
-                return true;
-            else
-            {
-                MessageBox.Show("Введены некорректные значения","Ошибка ввода", MessageBoxButton.OK, MessageBoxImage.Error);
-
-                FirstNum.Text = string.Empty;
-                SecondNum.Text = string.Empty;
-
-                return false;
-            }
         }
     }
 }
