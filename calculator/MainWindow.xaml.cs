@@ -38,7 +38,7 @@ namespace calculator
 
         private void Multiply(object sender, RoutedEventArgs e)
         {
-
+            ResutNumber.Text = Convert.ToString(Convert.ToInt16(FirstNumber.Text) * Convert.ToInt16(SecondNumber.Text));
         }
     }
 }
