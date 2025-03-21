@@ -7,12 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBox x:Name="FirstNumber" HorizontalAlignment="Left" Height="39" Margin="113,142,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="197"/>
-        <TextBox x:Name="SecondNumber" HorizontalAlignment="Left" Height="39" Margin="113,253,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="197"/>
+        <TextBox x:Name="FirstNumber" HorizontalAlignment="Left" Height="39" Margin="113,142,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="197" TextChanged="FirstNumber_TextChanged"/>
+        <TextBox x:Name="SecondNumber" HorizontalAlignment="Left" Height="39" Margin="113,253,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="197"/>
         <Label Content="A" HorizontalAlignment="Left" Margin="72,149,0,0" VerticalAlignment="Top"/>
         <Label Content="B" HorizontalAlignment="Left" Margin="72,255,0,0" VerticalAlignment="Top"/>
         <Label Content="=" HorizontalAlignment="Left" Margin="342,0,0,0" VerticalAlignment="Center"/>
-        <TextBox x:Name="ResutNumber" HorizontalAlignment="Left" Height="39" Margin="400,0,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Center" Width="197"/>
+        <TextBox x:Name="ResutNumber" HorizontalAlignment="Left" Height="39" Margin="400,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="197"/>
         <Button Content="+" HorizontalAlignment="Left" Margin="113,210,0,0" VerticalAlignment="Top" Width="33" Click="Sum"/>
         <Button Content="-" HorizontalAlignment="Left" Margin="167,210,0,0" VerticalAlignment="Top" Width="33" Click="Reduce"/>
         <Button Content="*" HorizontalAlignment="Left" Margin="277,210,0,0" VerticalAlignment="Top" Width="33" Click="Multiply"/>
