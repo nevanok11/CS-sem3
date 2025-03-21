@@ -18,8 +18,26 @@ namespace calculator
     {
         public MainWindow()
         {
-            Console.WriteLine('Hello Wolrd');
             InitializeComponent();
+        }
+        private void Sum(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void Reduce(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Divide(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Multiply(object sender, RoutedEventArgs e)
+        {
+            ResutNumber.Text = Convert.ToString(Convert.ToInt16(FirstNumber.Text) * Convert.ToInt16(SecondNumber.Text));
         }
     }
 }
