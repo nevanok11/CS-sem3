@@ -22,7 +22,7 @@ namespace calculator
         }
         private void Sum(object sender, RoutedEventArgs e)
         {
-            
+            ResutNumber.Text = Convert.ToString(Convert.ToInt16(FirstNumber.Text) + Convert.ToInt16(SecondNumber.Text));
         }
 
         private void Reduce(object sender, RoutedEventArgs e)
